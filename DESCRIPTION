@@ -1,0 +1,14 @@
+Package: ncbi.datasets
+Title: R Package Client for NCBI Datasets API
+Version: 0.1.0
+Authors@R: person("OpenAPI Generator community", email = "team@openapitools.org", role = c("aut", "cre"))
+Description: NCBI service to query and download biological sequence data across all domains of life from NCBI databases.
+URL: https://github.com/zhang-ncbi/dataset_r_test
+BugReports: https://github.com/zhang-ncbi/dataset_r_test/issues
+Depends: R (>= 3.3)
+Encoding: UTF-8
+License: Unlicense
+LazyData: true
+Suggests: testthat
+Imports: jsonlite, httr, R6, caTools
+RoxygenNote: 6.0.1.9000
