@@ -17,7 +17,7 @@
 GeneDatasetRequestSortField <- R6::R6Class(
   'GeneDatasetRequestSortField',
   public = list(
-    initialize = function(, ...){
+    initialize = function(...){
       local.optional.var <- list(...)
     },
     toJSON = function() {

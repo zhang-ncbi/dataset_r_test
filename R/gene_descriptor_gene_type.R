@@ -17,7 +17,7 @@
 GeneDescriptorGeneType <- R6::R6Class(
   'GeneDescriptorGeneType',
   public = list(
-    initialize = function(, ...){
+    initialize = function(...){
       local.optional.var <- list(...)
     },
     toJSON = function() {

@@ -17,7 +17,7 @@
 AssemblyDatasetRequestResolution <- R6::R6Class(
   'AssemblyDatasetRequestResolution',
   public = list(
-    initialize = function(, ...){
+    initialize = function(...){
       local.optional.var <- list(...)
     },
     toJSON = function() {

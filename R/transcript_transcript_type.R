@@ -17,7 +17,7 @@
 TranscriptTranscriptType <- R6::R6Class(
   'TranscriptTranscriptType',
   public = list(
-    initialize = function(, ...){
+    initialize = function(...){
       local.optional.var <- list(...)
     },
     toJSON = function() {

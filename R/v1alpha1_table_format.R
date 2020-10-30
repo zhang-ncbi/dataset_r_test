@@ -17,7 +17,7 @@
 V1alpha1TableFormat <- R6::R6Class(
   'V1alpha1TableFormat',
   public = list(
-    initialize = function(, ...){
+    initialize = function(...){
       local.optional.var <- list(...)
     },
     toJSON = function() {

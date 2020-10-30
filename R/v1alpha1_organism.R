@@ -41,7 +41,7 @@
 #' @field merged_tax_ids  list( character ) [optional]
 #'
 #' @field min_ord ordinal values for any node are the full range of the ordinal values
-in the subtree underneath this node, and are used for faster range-based lookups integer [optional]
+#' in the subtree underneath this node, and are used for faster range-based lookups integer [optional]
 #'
 #' @field parent_tax_id The parent taxnode ID character [optional]
 #'

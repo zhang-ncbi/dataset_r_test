@@ -13,7 +13,7 @@
 #' @field annotation_metadata  \link{V1alpha1AnnotationForAssembly} [optional]
 #'
 #' @field assembly_accession The GenColl assembly accession
-(e.g. GCF_000001405.39) character [optional]
+#' (e.g. GCF_000001405.39) character [optional]
 #'
 #' @field assembly_category  character [optional]
 #'

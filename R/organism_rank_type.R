@@ -17,7 +17,7 @@
 OrganismRankType <- R6::R6Class(
   'OrganismRankType',
   public = list(
-    initialize = function(, ...){
+    initialize = function(...){
       local.optional.var <- list(...)
     },
     toJSON = function() {

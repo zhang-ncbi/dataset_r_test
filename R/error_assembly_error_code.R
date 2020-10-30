@@ -17,7 +17,7 @@
 ErrorAssemblyErrorCode <- R6::R6Class(
   'ErrorAssemblyErrorCode',
   public = list(
-    initialize = function(, ...){
+    initialize = function(...){
       local.optional.var <- list(...)
     },
     toJSON = function() {
